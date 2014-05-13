@@ -1,0 +1,9 @@
+This is the first post in a series that I'm calling "There and back - two way data binding". In it I will try to document my process building a Javascript framework that provides two way data binding in browsers. Projects like [Angular](https://github.com/angular/angular.js) and [Ember](https://github.com/emberjs/ember.js/) are famous for their implementations of this feature and there are [many](https://github.com/grnadav/databind) [other](https://github.com/arendjr/laces.js) [libraries](https://github.com/mikeric/rivets) out there that does the same thing, so the feature is pretty well known.
+
+So why do it if there's already an abundance of tools out there? Quite frankly, it's to level up my skills. I consider myself a decent Javascript developer - I know most of the common pifalls, I've read [Crockfords "JS, The good parts"](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) front to back several times, I can produce well structured code that solves just about any problem, yadayadayada. But reading code in advanced projects like Angular, Ember or Backbone, I still feel that there are nuances of the language that I haven't quite grasped yet. Also, the concept of two way data binding fascinates me and I think this will be a great opportunity to gain a deeper understanding of how it actually works.
+
+I imagine that having myself to blog about it will force me to be able to explain all my decisions, and hopefully this series will be of help to someone else in the future.
+
+Alright, enough with the words - time to get going. The next post will be about trying to spec out the features that are needed for the project to be complete.
+
+Oh, I'll call the project, and this series, "TEJP". 
